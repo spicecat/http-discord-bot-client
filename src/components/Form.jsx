@@ -1,6 +1,6 @@
 import { Button, TextField, Typography } from '@mui/material';
 
-export default function Form({ fields, handleSubmit }) {
+export default function Form({ fields, handleSubmit })  {
     return (
         <form onSubmit={handleSubmit}>
             {fields.map((field) => (
